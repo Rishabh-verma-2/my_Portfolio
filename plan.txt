@@ -1,0 +1,95 @@
+PORTFOLIO WEBSITE PLAN
+======================
+
+Theme: Modern, Techy, Immersive
+Tech Stack: React, Three.js (@react-three/fiber, @react-three/drei), Framer Motion, TailwindCSS (for styling), GSAP (optional for timeline control if needed).
+
+1. VISUAL LAYOUT & ANIMATION CONCEPTS
+-------------------------------------
+
+A. HERO SECTION (The First Impression)
+   - Concept: "The Digital Void"
+   - Visual: A partially dark screen with a 3D interactive element in the center. It could be:
+     1. A floating 3D abstract shape (like a tesseract or glossy knot) that reacts to mouse movement.
+     2. A "Matrix-like" particle rain or a digital terrain grid that moves forward.
+   - Animation: 
+     - Text ("Hi, I'm Rishabh") types itself in (Typewriter effect).
+     - Subtext fades in with a blur effect.
+     - The 3D object floats gently and rotates based on the user's cursor position.
+
+B. ABOUT ME (Scroll-Triggered Story)
+   - Concept: "Glassmorphism & Depth"
+   - Visual: As the user scrolls down, the Hero 3D background blurs and recedes. A frosted glass card slides in from the bottom.
+   - Animation:
+     - Text characters stagger in using Framer Motion (`staggerChildren`).
+     - A 3D Avatar (a stylized version of you or a robot/mascot) tracks the scroll progress on the side.
+
+C. SKILLS SECTION (Interactive Galaxy)
+   - Concept: "Orbiting Knowledge"
+   - Visual: 3D spheres or icons representing your skills (React, JS, Node, etc.) floating in a solar system arrangement.
+   - Animation:
+     - The entire system rotates slowly.
+     - Hovering over a skill brings it to the front and highlights it with a glow effect.
+     - Clicking a skill pops up a micro-interaction showing proficiency level.
+
+D. PROJECTS (The Hangar)
+   - Concept: "Holodeck Showcase"
+   - Visual: Project cards are displayed as floating 3D planes in a perspective view.
+   - Animation:
+     - "Cover flow" style or infinite scroll tunnel.
+     - When a user hovers a project, the image lifts up (parallax effect) and a video preview starts playing.
+     - Transition to project details creates a "warp speed" effect.
+
+E. CONTACT (The Network)
+   - Concept: "Global Connection"
+   - Visual: A 3D globe with lines connecting different dots (nodes), symbolizing the internet/connection.
+   - Animation:
+     - The globe spins.
+     - Form inputs look like terminal command lines (`> Enter Name...`).
+     - Submit button triggers a "Data Sent" particle explosion animation.
+
+F. GENERAL ATMOSPHERE
+   - Cursor: A custom custom trail cursor (e.g., a glowing dot with a trailing tail).
+   - Audio: Optional subtle ambient background drone or click sounds (UI sounds) for a truly "App-like" feel.
+   - Page Transitions: Smooth "curtain" wipes or dissolve effects between sections.
+
+-------------------------------------
+
+2. REQUIRED INFORMATION FROM YOU
+-------------------------------------
+To build this effectively, I need you to fill in the following details:
+
+[ ] Full Name: Rishabh Verma
+    (e.g., "Alex Carter")
+
+[ ] Job Title / Tagline: Currently pursuing my B.Tech in Computer Science and Engineering
+    (e.g., "Creative Developer", "Full Stack Engineer & UI Artist")
+
+[ ] Current Status / Education: 2nd year B.Tech in Computer Science and Engineering
+    (e.g., "Final Year CS Student at XYZ University", "Self-taught Developer")
+
+[ ] "About Me" Bio: I am a passionate Computer Science student with a strong interest in programming and web development. I am currently pursuing my B.Tech in Computer Science and Engineering.
+    (Short paragraph, 1-3 sentences describing your passion for tech/coding.)
+
+[ ] Skills List: React, Java, Node, Express, MongoDB, Mongoose, TailwindCSS, Three.js, Framer Motion, GSAP
+    (Top 5-10 technical skills you want to highlight, e.g., React, Python, Three.js)
+
+[ ] Highlight Projects (2-3 key projects):
+    - Name:Alumni Connect 
+    - One-line description: A platform where students and alumni can connect(like this)
+    - Tech used: React, tailwindcss, node, express, mongodb, mongoose
+
+[ ] Contact Links:
+    leetcode - https://leetcode.com/u/HFia6ENOU4/
+    github - https://github.com/Rishabh-verma-2
+    linkedIn - https://linkedin.com/in/rishabh-verma-024sp-2jv
+    email - rishabh.verma2626@gmail.com
+    (GitHub, LinkedIn, Email, Twitter/X)
+
+[ ] Preferred Color Accent: default i want dark theme but also wanted the light mode and whenever anyone clicked on light mode then with a very beautiful animation everthing should be changed to light mode and same for dark mode
+    (e.g., Cyberpunk Pink, Electric Blue, Emerald Green, or Monochrome White)
+
+-------------------------------------
+Once you fill this out, I will initialize the project and start building the Hero section!
+
+so start building this work for now others additional things i will tell you later and also use the apprpriate image logo for the skills names liek react logo an etc.
