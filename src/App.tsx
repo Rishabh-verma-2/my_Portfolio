@@ -96,6 +96,9 @@ function App() {
                 {/* Custom Cursor */}
                 {showCursor && <CustomCursor />}
 
+                {/* Interactive Robot */}
+                
+
                 {/* Navbar */}
                 <nav className="fixed top-0 left-0 w-full z-50 px-6 py-4 flex justify-between items-center glass backdrop-blur-md">
                     <motion.div
