@@ -118,7 +118,7 @@ const Hero = () => {
                         animate={{ opacity: 1 }}
                         transition={{ delay: 1 }}
                     >
-                        <Typewriter text="A passionate Computer Science student and Creative Developer." />
+                        <Typewriter text="A passionate Computer Science student and Creative Web Developer." />
                     </motion.div>
 
                     {/* Floating particles around text */}
