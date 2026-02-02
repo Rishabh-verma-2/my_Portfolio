@@ -53,12 +53,7 @@ const Computers = ({ isMobile }: { isMobile: boolean }) => {
 };
 
 // Fallback component if model fails to load
-const ComputersFallback = () => (
-    <mesh>
-        <boxGeometry args={[1, 1, 1]} />
-        <meshStandardMaterial color="hotpink" />
-    </mesh>
-)
+
 
 // ... (previous code)
 

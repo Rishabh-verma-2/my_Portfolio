@@ -1,6 +1,6 @@
 import { Suspense, useRef } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
-import { OrbitControls, Preload, useGLTF, useTexture } from '@react-three/drei';
+import { OrbitControls, Preload, useGLTF } from '@react-three/drei';
 import * as THREE from 'three';
 import CanvasLoader from '../Loader';
 
@@ -9,7 +9,7 @@ const Earth = () => {
     const meshRef = useRef<THREE.Group>(null);
 
     // Auto-rotate the earth
-    useFrame((state, delta) => {
+    useFrame((_, delta) => {
         if (meshRef.current) {
             meshRef.current.rotation.y += delta * 0.1; // Slow rotation
         }

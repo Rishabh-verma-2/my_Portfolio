@@ -1,7 +1,7 @@
 import { Suspense, useState, useEffect } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { Text, OrbitControls, Preload, Float } from '@react-three/drei';
-import * as THREE from 'three';
+
 import CanvasLoader from '../Loader';
 
 // Types for props
@@ -120,7 +120,7 @@ const HolographicTerminalScene = () => {
         "> Initializing environment...",
         "> Loading portfolio configuration..."
     ]);
-    const [commandIndex, setCommandIndex] = useState(0);
+
 
     useEffect(() => {
         // Extensive realistic command library
@@ -258,7 +258,7 @@ const HolographicTerminalScene = () => {
         return () => timeouts.forEach(clearTimeout);
     }, []);
 
-    useFrame((state) => {
+    useFrame(() => {
         // Subtle float handled by wrapper
     })
 
